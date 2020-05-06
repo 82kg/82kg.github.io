@@ -1,0 +1,23 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>SEVEN | SEVEN</title>
+        <link>https://tohot.top/</link>
+        <description>SEVEN | SEVEN</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 27 Apr 2020 15:19:52 &#43;0800</lastBuildDate><atom:link href="https://tohot.top/" rel="self" type="application/rss+xml" /><item>
+                <title>友情链接</title>
+                <link>https://tohot.top/friends/index.html/</link>
+                <pubDate>Mon, 27 Apr 2020 15:19:52 &#43;0800</pubDate><guid>https://tohot.top/friends/index.html/</guid>
+                <description>&lt;h3 id=&#34;大佬&#34;&gt;大佬&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;:(fas fa-rocket): &lt;strong&gt;Python 技术&lt;/strong&gt; &amp;mdash;-&amp;gt;  &lt;a href=&#34;https://www.itrhx.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;TRHX’S BLOG&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;:(fab fa-searchengin): &lt;strong&gt;热爱无线电 阅读 网络技术&lt;/strong&gt; &amp;mdash;-&amp;gt; &lt;a href=&#34;https://ibcl.us/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;I BCL.&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+            </item><item>
+                <title>Posts</title>
+                <link>https://tohot.top/posts/</link>
+                <pubDate>Wed, 15 Jan 2020 00:00:00 &#43;0000</pubDate><guid>https://tohot.top/posts/</guid>
+                <description></description>
+            </item></channel>
+</rss>

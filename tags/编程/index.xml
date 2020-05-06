@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>编程 on SEVEN</title>
+    <link>https://tohot.top/tags/%E7%BC%96%E7%A8%8B/</link>
+    <description>Recent content in 编程 on SEVEN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 15 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tohot.top/tags/%E7%BC%96%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>一个使用Go编写的Github webhook接收处理服务</title>
+      <link>https://tohot.top/posts/40496.html</link>
+      <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tohot.top/posts/40496.html</guid>
+      <description>如题，今天突然遇到一个场景，此博客的hexo架子是放在群辉docker里的，一般写完文章会push到VPS的git仓库，再用nginx展示静</description>
+    </item>
+    
+  </channel>
+</rss>
