@@ -15,16 +15,11 @@
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="SEVEN"/>
 <meta name="twitter:description" content="seven"/>
-<meta name="theme-color" content="#ffffff">
-<meta name="msapplication-TileColor" content="#da532c">
-<link rel="canonical" href="https://tohot.top/" />
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="alternate" href="/index.xml" type="application/rss+xml" title="SEVEN">
-    <link rel="feed" href="/index.xml" type="application/rss+xml" title="SEVEN"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><link rel="stylesheet" href="/css/style.min.css"><script type="application/ld+json">
+<meta name="application-name" content="SEVEN">
+<meta name="apple-mobile-web-app-title" content="SEVEN"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://tohot.top/" /><link rel="alternate" href="/index.xml" type="application/rss+xml" title="SEVEN">
+    <link rel="feed" href="/index.xml" type="application/rss+xml" title="SEVEN"><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.template.scss"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "WebSite",
@@ -34,46 +29,45 @@
             },"description": "seven","name": "SEVEN"
     }
     </script></head>
-    <body><script>
-            if (!window.localStorage || !window.localStorage.getItem('theme')) {window.isDark = '' === 'dark';} else {
-                window.isDark = (window.localStorage && window.localStorage.getItem('theme')) === 'dark';
-            }
-            window.isDark && document.body.classList.add('dark-theme');
-        </script><div class="wrapper"><header class="desktop" id="header-desktop">
+    <body><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : '' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
     <div class="header-wrapper">
         <div class="header-title">
-            <a href="/">SEVEN</a>
+            <a href="/" title="SEVEN">SEVEN</a>
         </div>
-        <div class="menu"><a class="menu-item active" href="/" rel="noopener noreffer">主页</a><a class="menu-item" href="/posts/" rel="noopener noreffer">文章</a><a class="menu-item" href="/tags/" rel="noopener noreffer">标签</a><a class="menu-item" href="/categories/" rel="noopener noreffer">分类</a><a class="menu-item" href="/friends/" rel="noopener noreffer">友链</a><span class="menu-item">|</span>
-            <a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
-                <i class="fas fa-adjust fa-fw"></i>
-            </a></div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item active" href="/"> 主页 </a><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/friends/"> 友链 </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
     </div>
 </header><header class="mobile" id="header-mobile">
-    <div class="header-wrapper">
-        <div class="header-container">
+    <div class="header-container">
+        <div class="header-wrapper">
             <div class="header-title">
-                <a href="/">SEVEN</a>
+                <a href="/" title="SEVEN">SEVEN</a>
             </div>
             <div class="menu-toggle" id="menu-toggle-mobile">
                 <span></span><span></span><span></span>
             </div>
         </div>
-        <div class="menu" id="menu-mobile"><a class="menu-item" href="/" title="" rel="noopener noreffer">主页</a><a class="menu-item" href="/posts/" title="" rel="noopener noreffer">文章</a><a class="menu-item" href="/tags/" title="" rel="noopener noreffer">标签</a><a class="menu-item" href="/categories/" title="" rel="noopener noreffer">分类</a><a class="menu-item" href="/friends/" title="" rel="noopener noreffer">友链</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/" title="">主页</a><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/friends/" title="">友链</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
                 <i class="fas fa-adjust fa-fw"></i>
             </a></div>
     </div>
 </header>
-
-<script>
-    window.desktopHeaderMode = "fixed";
-    window.mobileHeaderMode = "auto";
-</script>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
 <main class="main">
                 <div class="container"><div class="page home"><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/posts/40496.html">一个使用Go编写的Github webhook接收处理服务</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://github.com/82kg/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>seven</a>
-</span>&nbsp;<span class="post-publish">
+    </h1><div class="post-meta"><span class="post-author"><a href="https://github.com/82kg/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>seven</a></span>&nbsp;<span class="post-publish">
             发布于&nbsp;<time datetime=2020-01-15>2020-01-15</time>
         </span>&nbsp;
             <span class="post-category">收录于<a href="/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/">
@@ -84,8 +78,7 @@
 </article>
 <article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/posts/20546.html">openwrt或lede的wan口无法自定义mac的解决方法</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://github.com/82kg/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>seven</a>
-</span>&nbsp;<span class="post-publish">
+    </h1><div class="post-meta"><span class="post-author"><a href="https://github.com/82kg/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>seven</a></span>&nbsp;<span class="post-publish">
             发布于&nbsp;<time datetime=2019-07-04>2019-07-04</time>
         </span>&nbsp;
             <span class="post-category">收录于<a href="/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/">
@@ -96,8 +89,7 @@
 </article>
 <article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/posts/1638.html">office2010,office2016打开excel文档时为空白的解决方法</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://github.com/82kg/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>seven</a>
-</span>&nbsp;<span class="post-publish">
+    </h1><div class="post-meta"><span class="post-author"><a href="https://github.com/82kg/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>seven</a></span>&nbsp;<span class="post-publish">
             发布于&nbsp;<time datetime=2019-06-21>2019-06-21</time>
         </span>&nbsp;
             <span class="post-category">收录于<a href="/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/">
@@ -108,8 +100,7 @@
 </article>
 <article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/posts/5753.html">armbian修改为中文环境，解决中文乱码</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://github.com/82kg/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>seven</a>
-</span>&nbsp;<span class="post-publish">
+    </h1><div class="post-meta"><span class="post-author"><a href="https://github.com/82kg/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>seven</a></span>&nbsp;<span class="post-publish">
             发布于&nbsp;<time datetime=2019-05-31>2019-05-31</time>
         </span>&nbsp;
             <span class="post-category">收录于<a href="/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/">
@@ -120,8 +111,7 @@
 </article>
 <article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/posts/37445.html">斐讯N1 armbian升级</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://github.com/82kg/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>seven</a>
-</span>&nbsp;<span class="post-publish">
+    </h1><div class="post-meta"><span class="post-author"><a href="https://github.com/82kg/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>seven</a></span>&nbsp;<span class="post-publish">
             发布于&nbsp;<time datetime=2019-05-31>2019-05-31</time>
         </span>&nbsp;
             <span class="post-category">收录于<a href="/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/">
@@ -132,8 +122,7 @@
 </article>
 <article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/posts/53788.html">斐讯N1刷armbian</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://github.com/82kg/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>seven</a>
-</span>&nbsp;<span class="post-publish">
+    </h1><div class="post-meta"><span class="post-author"><a href="https://github.com/82kg/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>seven</a></span>&nbsp;<span class="post-publish">
             发布于&nbsp;<time datetime=2019-05-30>2019-05-30</time>
         </span>&nbsp;
             <span class="post-category">收录于<a href="/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/">
@@ -152,25 +141,17 @@
                     </span>
                 </li></ul></div></div>
             </main><footer class="footer">
-    <div class="copyright"><div class="copyright-line">由 <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreffer">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="external nofollow noopener noreffer"><i class="far fa-heart fa-fw"></i> LoveIt</a>
+        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.70.0-DEV">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.6"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://github.com/82kg/" target="_blank">seven</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
         </div>
+    </footer></div>
 
-        <div class="copyright-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://github.com/82kg/" target="_blank">seven</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
-    </div>
-</footer>
-</div><a href="#" class="dynamic-to-top animated faster" id="dynamic-to-top">
-            <i class="fas fa-chevron-up fa-fw"></i>
-        </a><script>
-        document.addEventListener('DOMContentLoaded', function () {
-            lightGallery(document.getElementById('content'), {
-                selector: '.lightgallery',
-                speed: 400,
-                hideBarsDelay: 2000,
-                thumbnail: true,
-                exThumbImage: 'data-thumbnail',
-                thumbWidth: 80,
-                thumbContHeight: 80,
-            });
-        });
-    </script><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><script src="/lib/smooth-scroll/smooth-scroll.polyfills.min.js"></script><script src="/lib/lazysizes/lazysizes.min.js"></script><script src="/lib/lightgallery/lightgallery.min.js"></script><script src="/lib/lightgallery/lg-thumbnail.min.js"></script><script src="/lib/lightgallery/lg-zoom.min.js"></script><script src="/js/theme.min.js"></script></body>
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><style>.lg-toolbar .lg-icon::after { color: #999; }</style><script type="text/javascript">
+    window.config = {"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"headerMode":{"desktop":"fixed","mobile":"auto"},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true}};
+</script><script type="text/javascript" src="https://polyfill.io/v3/polyfill.min.js?features=html5shiv%2CElement.prototype.closest%2CrequestAnimationFrame%2CCustomEvent%2CPromise%2CObject.entries%2CObject.assign%2CObject.values%2Cfetch%2CElement.prototype.after%2CArray.prototype.fill%2CIntersectionObserver%2CArray.from%2CArray.prototype.find%2CMath.sign"></script><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/object-fit-images/ofi.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/js/theme.min.js"></script></body>
 </html>
