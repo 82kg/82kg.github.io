@@ -1,37 +1,77 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>SEVEN | SEVEN</title>
+        <title>SEVEN</title>
         <link>https://tohot.top/</link>
-        <description>SEVEN | SEVEN</description>
+        <description>seven</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 27 Apr 2020 15:19:52 &#43;0800</lastBuildDate><atom:link href="https://tohot.top/" rel="self" type="application/rss+xml" /><item>
-                <title>友情链接</title>
-                <link>https://tohot.top/friends/</link>
-                <pubDate>Mon, 27 Apr 2020 15:19:52 &#43;0800</pubDate><guid>https://tohot.top/friends/</guid>
-                <description>&lt;h3 id=&#34;大佬&#34;&gt;大佬&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;:(fas fa-rocket): &lt;strong&gt;Python 技术&lt;/strong&gt; &amp;mdash;-&amp;gt;  &lt;a href=&#34;https://www.itrhx.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;TRHX’S BLOG&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;:(fab fa-searchengin): &lt;strong&gt;热爱无线电 阅读 网络技术&lt;/strong&gt; &amp;mdash;-&amp;gt; &lt;a href=&#34;https://ibcl.us/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;I BCL.&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-            </item><item>
-                <title>Posts</title>
-                <link>https://tohot.top/posts/</link>
-                <pubDate>Wed, 15 Jan 2020 00:00:00 &#43;0000</pubDate><guid>https://tohot.top/posts/</guid>
-                <description></description>
-            </item><item>
-                <title></title>
-                <link>https://tohot.top/weixin/wx.html</link>
-                <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><guid>https://tohot.top/weixin/wx.html</guid>
-                <description>&lt;h3 id=&#34;请扫码加微信入群有问题请留言&#34;&gt;请扫码加微信入群，有问题请留言&lt;/h3&gt;
-&lt;p&gt;&lt;img
-        class=&#34;lazyload&#34;
-        src=&#34;https://tohot.top/svg/loading.small.min.svg&#34;
-        data-sizes=&#34;auto&#34;
-        data-srcset=&#34;https://tohot.top/images/weixin.png,  1.5x,  2x&#34;
-        data-src=&#34;&#34;
-        alt=&#34;微信&#34;
-        title=&#34;微信&#34; /&gt;&lt;/p&gt;
-</description>
-            </item></channel>
+    <title>一个使用Go编写的Github webhook接收处理服务</title>
+    <link>https://tohot.top/posts/40496.html</link>
+    <pubDate>Wed, 15 Jan 2020 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://tohot.top/posts/40496.html</guid>
+    <description><![CDATA[如题，今天突然遇到一个场景，此博客的hexo架子是放在群辉docker里的，一般写完文章会push到VPS的git仓库，再用nginx展示静]]></description>
+</item><item>
+    <title>openwrt或lede的wan口无法自定义mac的解决方法</title>
+    <link>https://tohot.top/posts/20546.html</link>
+    <pubDate>Thu, 04 Jul 2019 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://tohot.top/posts/20546.html</guid>
+    <description><![CDATA[故障描述： 修改wan口 &ndash;&gt; 高级设置里&mdash;&gt;重设 MAC 地址 ，在自定义mac地址后，无法生效，还是显示的原来的mac地址。 解决办法： 第]]></description>
+</item><item>
+    <title>office2010,office2016打开excel文档时为空白的解决方法</title>
+    <link>https://tohot.top/posts/1638.html</link>
+    <pubDate>Fri, 21 Jun 2019 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://tohot.top/posts/1638.html</guid>
+    <description><![CDATA[2020-01-16更新： 别折腾了，建议安装office2013.没毛病 64位系统安装包如下 文件名 cn_office_professional_plus_2013_with_sp1_x64_dvd_3921920.iso SHA1 5BC5AE6B03876E634FA6396749C59164C7767F9F 文件大小 934.85MB 发布时间 2014-03-18 ed2k://|file|cn_office_professional_plus_2013_with_sp1_x64_dvd_3921920.iso|980258816|E18C9CF896D65B2778AA1A44C922C377|/ 32位系统安装]]></description>
+</item><item>
+    <title>armbian修改为中文环境，解决中文乱码</title>
+    <link>https://tohot.top/posts/5753.html</link>
+    <pubDate>Fri, 31 May 2019 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://tohot.top/posts/5753.html</guid>
+    <description><![CDATA[step1: 输入 dpkg-reconfigure locales 选 zh_CN.UTF-8 ,空格打钩，tab 到确定按钮即可。 第二个画面 选择默认语言，随便选，这一步主要是为了安装 zh_CN.UTF-8 语言包。 step2: 输入 vi /etc/default/locale 按 i 键，进入inse]]></description>
+</item><item>
+    <title>斐讯N1 armbian升级</title>
+    <link>https://tohot.top/posts/37445.html</link>
+    <pubDate>Fri, 31 May 2019 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://tohot.top/posts/37445.html</guid>
+    <description><![CDATA[WAY1 如果你一直是U盘启动的 armbian，那只要重做下U盘的armbian系统就行。记得备份原文件。 WAY2 如果 armbian是写入到 emmc的，那]]></description>
+</item><item>
+    <title>斐讯N1刷armbian</title>
+    <link>https://tohot.top/posts/53788.html</link>
+    <pubDate>Thu, 30 May 2019 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://tohot.top/posts/53788.html</guid>
+    <description><![CDATA[一、系统降级并输入官改系统 1、降级过程此处参考学习原文链接：https://www.right.com.cn/forum/thread-33]]></description>
+</item><item>
+    <title>一键激活window&amp;office</title>
+    <link>https://tohot.top/posts/43220.html</link>
+    <pubDate>Fri, 29 Mar 2019 14:02:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://tohot.top/posts/43220.html</guid>
+    <description><![CDATA[自建的激活服务器，24小时运行，稳如老狗，保证长久运行。 可以一键激活VOL版的window和office。bat激活脚本仅13KB大小，源码]]></description>
+</item><item>
+    <title>QCY T1青春版蓝牙耳机</title>
+    <link>https://tohot.top/posts/61631.html</link>
+    <pubDate>Mon, 11 Mar 2019 16:02:29 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://tohot.top/posts/61631.html</guid>
+    <description><![CDATA[换个耳机 公司里wifi信号太多，很多都是2.4G频道的，导致之前的蓝牙4.1的耳机 经常受到干扰，时常听着就断断续续。明确不是电量问题。拿回家]]></description>
+</item><item>
+    <title>docker安装的centos中文乱码</title>
+    <link>https://tohot.top/posts/23291.html</link>
+    <pubDate>Wed, 30 Jan 2019 16:02:29 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://tohot.top/posts/23291.html</guid>
+    <description><![CDATA[在群辉里使用docker安装了CentOS，完了之后镜像无法显示中文问题。 RUN rm -rf /etc/localtime &amp;&amp; ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime #修改时区 RUN yum -y install kde-l10n-Chinese &amp;&amp; yum -y reinstall glibc-common #安装中文支持 RUN localedef]]></description>
+</item><item>
+    <title>hexo博客的SEO优化</title>
+    <link>https://tohot.top/posts/46438.html</link>
+    <pubDate>Mon, 14 Jan 2019 02:16:16 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://tohot.top/posts/46438.html</guid>
+    <description><![CDATA[1.给你的文章生成sitemap文件 npm install hexo-generator-sitemap - -save #sitemap.xml适合提交给谷歌搜素引擎 npm install hexo-generator-baidu-sitemap - -save #baidusitemap.xml适合]]></description>
+</item></channel>
 </rss>

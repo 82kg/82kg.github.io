@@ -1,87 +1,63 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>技术分享 on SEVEN</title>
-    <link>https://tohot.top/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/</link>
-    <description>Recent content in 技术分享 on SEVEN</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
-    <lastBuildDate>Wed, 15 Jan 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://tohot.top/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>一个使用Go编写的Github webhook接收处理服务</title>
-      <link>https://tohot.top/posts/40496.html</link>
-      <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://tohot.top/posts/40496.html</guid>
-      <description>如题，今天突然遇到一个场景，此博客的hexo架子是放在群辉docker里的，一般写完文章会push到VPS的git仓库，再用nginx展示静</description>
-    </item>
-    
-    <item>
-      <title>openwrt或lede的wan口无法自定义mac的解决方法</title>
-      <link>https://tohot.top/posts/20546.html</link>
-      <pubDate>Thu, 04 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tohot.top/posts/20546.html</guid>
-      <description>故障描述： 修改wan口 &amp;ndash;&amp;gt; 高级设置里&amp;mdash;&amp;gt;重设 MAC 地址 ，在自定义mac地址后，无法生效，还是显示的原来的mac地址。 解决办法： 第</description>
-    </item>
-    
-    <item>
-      <title>office2010,office2016打开excel文档时为空白的解决方法</title>
-      <link>https://tohot.top/posts/1638.html</link>
-      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tohot.top/posts/1638.html</guid>
-      <description>2020-01-16更新： 别折腾了，建议安装office2013.没毛病 64位系统安装包如下 文件名 cn_office_professional_plus_2013_with_sp1_x64_dvd_3921920.iso SHA1 5BC5AE6B03876E634FA6396749C59164C7767F9F 文件大小 934.85MB 发布时间 2014-03-18 ed2k://|file|cn_office_professional_plus_2013_with_sp1_x64_dvd_3921920.iso|980258816|E18C9CF896D65B2778AA1A44C922C377|/ 32位系统安装</description>
-    </item>
-    
-    <item>
-      <title>armbian修改为中文环境，解决中文乱码</title>
-      <link>https://tohot.top/posts/5753.html</link>
-      <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tohot.top/posts/5753.html</guid>
-      <description>step1: 输入 dpkg-reconfigure locales 选 zh_CN.UTF-8 ,空格打钩，tab 到确定按钮即可。 第二个画面 选择默认语言，随便选，这一步主要是为了安装 zh_CN.UTF-8 语言包。 step2: 输入 vi /etc/default/locale 按 i 键，进入inse</description>
-    </item>
-    
-    <item>
-      <title>斐讯N1 armbian升级</title>
-      <link>https://tohot.top/posts/37445.html</link>
-      <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tohot.top/posts/37445.html</guid>
-      <description>WAY1 如果你一直是U盘启动的 armbian，那只要重做下U盘的armbian系统就行。记得备份原文件。 WAY2 如果 armbian是写入到 emmc的，那</description>
-    </item>
-    
-    <item>
-      <title>斐讯N1刷armbian</title>
-      <link>https://tohot.top/posts/53788.html</link>
-      <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tohot.top/posts/53788.html</guid>
-      <description>一、系统降级并输入官改系统 1、降级过程此处参考学习原文链接：https://www.right.com.cn/forum/thread-33</description>
-    </item>
-    
-    <item>
-      <title>一键激活window&amp;office</title>
-      <link>https://tohot.top/posts/43220.html</link>
-      <pubDate>Fri, 29 Mar 2019 14:02:00 +0000</pubDate>
-      
-      <guid>https://tohot.top/posts/43220.html</guid>
-      <description>自建的激活服务器，24小时运行，稳如老狗，保证长久运行。 可以一键激活VOL版的window和office。bat激活脚本仅13KB大小，源码</description>
-    </item>
-    
-    <item>
-      <title>hexo博客的SEO优化</title>
-      <link>https://tohot.top/posts/46438.html</link>
-      <pubDate>Mon, 14 Jan 2019 02:16:16 +0000</pubDate>
-      
-      <guid>https://tohot.top/posts/46438.html</guid>
-      <description>1.给你的文章生成sitemap文件 npm install hexo-generator-sitemap - -save #sitemap.xml适合提交给谷歌搜素引擎 npm install hexo-generator-baidu-sitemap - -save #baidusitemap.xml适合</description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>技术分享 - 分类 - SEVEN</title>
+        <link>https://tohot.top/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/</link>
+        <description>技术分享 - 分类 - SEVEN</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 15 Jan 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://tohot.top/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/" rel="self" type="application/rss+xml" /><item>
+    <title>一个使用Go编写的Github webhook接收处理服务</title>
+    <link>https://tohot.top/posts/40496.html</link>
+    <pubDate>Wed, 15 Jan 2020 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://tohot.top/posts/40496.html</guid>
+    <description><![CDATA[如题，今天突然遇到一个场景，此博客的hexo架子是放在群辉docker里的，一般写完文章会push到VPS的git仓库，再用nginx展示静]]></description>
+</item><item>
+    <title>openwrt或lede的wan口无法自定义mac的解决方法</title>
+    <link>https://tohot.top/posts/20546.html</link>
+    <pubDate>Thu, 04 Jul 2019 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://tohot.top/posts/20546.html</guid>
+    <description><![CDATA[故障描述： 修改wan口 &ndash;&gt; 高级设置里&mdash;&gt;重设 MAC 地址 ，在自定义mac地址后，无法生效，还是显示的原来的mac地址。 解决办法： 第]]></description>
+</item><item>
+    <title>office2010,office2016打开excel文档时为空白的解决方法</title>
+    <link>https://tohot.top/posts/1638.html</link>
+    <pubDate>Fri, 21 Jun 2019 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://tohot.top/posts/1638.html</guid>
+    <description><![CDATA[2020-01-16更新： 别折腾了，建议安装office2013.没毛病 64位系统安装包如下 文件名 cn_office_professional_plus_2013_with_sp1_x64_dvd_3921920.iso SHA1 5BC5AE6B03876E634FA6396749C59164C7767F9F 文件大小 934.85MB 发布时间 2014-03-18 ed2k://|file|cn_office_professional_plus_2013_with_sp1_x64_dvd_3921920.iso|980258816|E18C9CF896D65B2778AA1A44C922C377|/ 32位系统安装]]></description>
+</item><item>
+    <title>armbian修改为中文环境，解决中文乱码</title>
+    <link>https://tohot.top/posts/5753.html</link>
+    <pubDate>Fri, 31 May 2019 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://tohot.top/posts/5753.html</guid>
+    <description><![CDATA[step1: 输入 dpkg-reconfigure locales 选 zh_CN.UTF-8 ,空格打钩，tab 到确定按钮即可。 第二个画面 选择默认语言，随便选，这一步主要是为了安装 zh_CN.UTF-8 语言包。 step2: 输入 vi /etc/default/locale 按 i 键，进入inse]]></description>
+</item><item>
+    <title>斐讯N1 armbian升级</title>
+    <link>https://tohot.top/posts/37445.html</link>
+    <pubDate>Fri, 31 May 2019 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://tohot.top/posts/37445.html</guid>
+    <description><![CDATA[WAY1 如果你一直是U盘启动的 armbian，那只要重做下U盘的armbian系统就行。记得备份原文件。 WAY2 如果 armbian是写入到 emmc的，那]]></description>
+</item><item>
+    <title>斐讯N1刷armbian</title>
+    <link>https://tohot.top/posts/53788.html</link>
+    <pubDate>Thu, 30 May 2019 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://tohot.top/posts/53788.html</guid>
+    <description><![CDATA[一、系统降级并输入官改系统 1、降级过程此处参考学习原文链接：https://www.right.com.cn/forum/thread-33]]></description>
+</item><item>
+    <title>一键激活window&amp;office</title>
+    <link>https://tohot.top/posts/43220.html</link>
+    <pubDate>Fri, 29 Mar 2019 14:02:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://tohot.top/posts/43220.html</guid>
+    <description><![CDATA[自建的激活服务器，24小时运行，稳如老狗，保证长久运行。 可以一键激活VOL版的window和office。bat激活脚本仅13KB大小，源码]]></description>
+</item><item>
+    <title>hexo博客的SEO优化</title>
+    <link>https://tohot.top/posts/46438.html</link>
+    <pubDate>Mon, 14 Jan 2019 02:16:16 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://tohot.top/posts/46438.html</guid>
+    <description><![CDATA[1.给你的文章生成sitemap文件 npm install hexo-generator-sitemap - -save #sitemap.xml适合提交给谷歌搜素引擎 npm install hexo-generator-baidu-sitemap - -save #baidusitemap.xml适合]]></description>
+</item></channel>
 </rss>

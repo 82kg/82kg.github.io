@@ -1,42 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>linux on SEVEN</title>
-    <link>https://tohot.top/tags/linux/</link>
-    <description>Recent content in linux on SEVEN</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
-    <lastBuildDate>Fri, 31 May 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://tohot.top/tags/linux/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>armbian修改为中文环境，解决中文乱码</title>
-      <link>https://tohot.top/posts/5753.html</link>
-      <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tohot.top/posts/5753.html</guid>
-      <description>step1: 输入 dpkg-reconfigure locales 选 zh_CN.UTF-8 ,空格打钩，tab 到确定按钮即可。 第二个画面 选择默认语言，随便选，这一步主要是为了安装 zh_CN.UTF-8 语言包。 step2: 输入 vi /etc/default/locale 按 i 键，进入inse</description>
-    </item>
-    
-    <item>
-      <title>斐讯N1 armbian升级</title>
-      <link>https://tohot.top/posts/37445.html</link>
-      <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tohot.top/posts/37445.html</guid>
-      <description>WAY1 如果你一直是U盘启动的 armbian，那只要重做下U盘的armbian系统就行。记得备份原文件。 WAY2 如果 armbian是写入到 emmc的，那</description>
-    </item>
-    
-    <item>
-      <title>斐讯N1刷armbian</title>
-      <link>https://tohot.top/posts/53788.html</link>
-      <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tohot.top/posts/53788.html</guid>
-      <description>一、系统降级并输入官改系统 1、降级过程此处参考学习原文链接：https://www.right.com.cn/forum/thread-33</description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>linux - 标签 - SEVEN</title>
+        <link>https://tohot.top/tags/linux/</link>
+        <description>linux - 标签 - SEVEN</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 31 May 2019 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://tohot.top/tags/linux/" rel="self" type="application/rss+xml" /><item>
+    <title>armbian修改为中文环境，解决中文乱码</title>
+    <link>https://tohot.top/posts/5753.html</link>
+    <pubDate>Fri, 31 May 2019 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://tohot.top/posts/5753.html</guid>
+    <description><![CDATA[step1: 输入 dpkg-reconfigure locales 选 zh_CN.UTF-8 ,空格打钩，tab 到确定按钮即可。 第二个画面 选择默认语言，随便选，这一步主要是为了安装 zh_CN.UTF-8 语言包。 step2: 输入 vi /etc/default/locale 按 i 键，进入inse]]></description>
+</item><item>
+    <title>斐讯N1 armbian升级</title>
+    <link>https://tohot.top/posts/37445.html</link>
+    <pubDate>Fri, 31 May 2019 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://tohot.top/posts/37445.html</guid>
+    <description><![CDATA[WAY1 如果你一直是U盘启动的 armbian，那只要重做下U盘的armbian系统就行。记得备份原文件。 WAY2 如果 armbian是写入到 emmc的，那]]></description>
+</item><item>
+    <title>斐讯N1刷armbian</title>
+    <link>https://tohot.top/posts/53788.html</link>
+    <pubDate>Thu, 30 May 2019 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://tohot.top/posts/53788.html</guid>
+    <description><![CDATA[一、系统降级并输入官改系统 1、降级过程此处参考学习原文链接：https://www.right.com.cn/forum/thread-33]]></description>
+</item></channel>
 </rss>

@@ -1,24 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>群辉 on SEVEN</title>
-    <link>https://tohot.top/tags/%E7%BE%A4%E8%BE%89/</link>
-    <description>Recent content in 群辉 on SEVEN</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
-    <lastBuildDate>Wed, 30 Jan 2019 16:02:29 +0000</lastBuildDate>
-    
-	<atom:link href="https://tohot.top/tags/%E7%BE%A4%E8%BE%89/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>docker安装的centos中文乱码</title>
-      <link>https://tohot.top/posts/23291.html</link>
-      <pubDate>Wed, 30 Jan 2019 16:02:29 +0000</pubDate>
-      
-      <guid>https://tohot.top/posts/23291.html</guid>
-      <description>在群辉里使用docker安装了CentOS，完了之后镜像无法显示中文问题。 RUN rm -rf /etc/localtime &amp;amp;&amp;amp; ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime #修改时区 RUN yum -y install kde-l10n-Chinese &amp;amp;&amp;amp; yum -y reinstall glibc-common #安装中文支持 RUN localedef</description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>群辉 - 标签 - SEVEN</title>
+        <link>https://tohot.top/tags/%E7%BE%A4%E8%BE%89/</link>
+        <description>群辉 - 标签 - SEVEN</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 30 Jan 2019 16:02:29 &#43;0000</lastBuildDate><atom:link href="https://tohot.top/tags/%E7%BE%A4%E8%BE%89/" rel="self" type="application/rss+xml" /><item>
+    <title>docker安装的centos中文乱码</title>
+    <link>https://tohot.top/posts/23291.html</link>
+    <pubDate>Wed, 30 Jan 2019 16:02:29 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://tohot.top/posts/23291.html</guid>
+    <description><![CDATA[在群辉里使用docker安装了CentOS，完了之后镜像无法显示中文问题。 RUN rm -rf /etc/localtime &amp;&amp; ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime #修改时区 RUN yum -y install kde-l10n-Chinese &amp;&amp; yum -y reinstall glibc-common #安装中文支持 RUN localedef]]></description>
+</item></channel>
 </rss>
