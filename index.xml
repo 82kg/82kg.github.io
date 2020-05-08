@@ -2,9 +2,9 @@
     <channel>
         <title>SEVEN</title>
         <link>https://tohot.top/</link>
-        <description>SEVEN</description>
+        <description>seven</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>sun82kg@gmail.com (seven)</managingEditor>
-            <webMaster>sun82kg@gmail.com (seven)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 27 Apr 2020 15:19:52 &#43;0800</lastBuildDate><atom:link href="https://tohot.top/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>sun82kg@gmail.com (seven)</webMaster><lastBuildDate>Mon, 27 Apr 2020 15:19:52 &#43;0800</lastBuildDate><atom:link href="https://tohot.top/" rel="self" type="application/rss+xml" /><item>
     <title>一个使用Go编写的Github webhook接收处理服务</title>
     <link>https://tohot.top/posts/40496.html</link>
     <pubDate>Wed, 15 Jan 2020 00:00:00 &#43;0000</pubDate>
