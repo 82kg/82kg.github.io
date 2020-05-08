@@ -3,7 +3,8 @@
         <title>所有文章 - SEVEN</title>
         <link>https://tohot.top/posts/</link>
         <description>所有文章 | SEVEN</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 15 Jan 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://tohot.top/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>sun82kg@gmail.com (seven)</managingEditor>
+            <webMaster>sun82kg@gmail.com (seven)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 15 Jan 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://tohot.top/posts/" rel="self" type="application/rss+xml" /><item>
     <title>一个使用Go编写的Github webhook接收处理服务</title>
     <link>https://tohot.top/posts/40496.html</link>
     <pubDate>Wed, 15 Jan 2020 00:00:00 &#43;0000</pubDate>
